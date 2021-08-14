@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Self Blog</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container-fluid" id="header">
+        <div class="row">
+            <div class="col-8" style="padding-right: 0%;">
+                <h1 class="header">Self Blog Website</h1>
+            </div>
+            <div class="col-4" id="btn">
+                <button class="btn btn-success btn-lg" style="margin-right: 3%; margin-bottom: 5px;">Sign in</button>
+                <button class="btn btn-success btn-lg" style="margin-bottom: 5px;">Sign up</button>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="container">
+        <div style="text-align: center;">
+            <button class="btn btn-danger" onclick="toggle()" id="enterblog"></button>
+        </div>
+        <br>
+        <div id="addblog">
+            <form>
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="category" class="form-label">Category</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="content" class="form-label">Content</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div><br>
+    <div class="container">
+        <div>
+            <h1>Explore Blogs</h1>
+        </div><br>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog title</h5>
+                        <p class="card-text">This is some random blog content and this is made for Web Student Designers company</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div><br>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog title</h5>
+                        <p class="card-text">This is some random blog content and this is made for Web Student Designers company</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div><br>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog title</h5>
+                        <p class="card-text">This is some random blog content and this is made for Web Student Designers company</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div><br>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog title</h5>
+                        <p class="card-text">This is some random blog content and this is made for Web Student Designers company</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div><br>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog title</h5>
+                        <p class="card-text">This is some random blog content and this is made for Web Student Designers company</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div><br>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog title</h5>
+                        <p class="card-text">This is some random blog content and this is made for Web Student Designers company</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div><br>
+            </div>
+        </div><br>
+        <div class="container" style="max-width: 900px; text-align: center;" id="change">
+            <div class="row">
+                <div class="col-2" id="curr">
+                    <p>1</p>
+                </div>
+                <div class="col-2">
+                    <p>2</p>
+                </div>
+                <div class="col-2">
+                    <p>3</p>
+                </div>
+                <div class="col-2">
+                    <p>4</p>
+                </div>
+                <div class="col-2">
+                    <p>...</p>
+                </div>
+                <div class="col-2">
+                    <p>10</p>
+                </div>
+            </div>
+        </div><br>
+    </div>
+    <div class="container-fluid" id="footer">
+        <h3>Made By R. Vishal</h3>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+
+    </div>
+    <script language="javascript" type="text/javascript" src="script.js">
+        
+    </script>
+</body>
+
+</html>
